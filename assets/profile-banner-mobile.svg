@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="480" viewBox="0 0 560 480" role="img" aria-labelledby="title description">
+  <title id="title">Morris Jhennong Chen — Building practical solutions to real-world problems.</title>
+  <desc id="description">AI, Software Engineering, System Design. Understand the problem, design the system, build the solution.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101e2c"/><stop offset="1" stop-color="#172c35"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#a4c8c8" opacity=".09"/></pattern>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .headline { font-size: 44px; font-weight: 700; letter-spacing: -1.2px; fill: #f1f5f7; }
+    .accent { fill: #8bdecf; }
+    .route { fill: none; stroke: #355760; stroke-width: 1.5; }
+    .signal { fill: none; stroke: #8bdecf; stroke-width: 2; stroke-dasharray: 5 27; animation: travel 9s linear infinite; opacity: .7; }
+    .pill rect, .node { fill: #152b34; stroke: #3f656d; stroke-width: 1.5; }
+    .node path, .node rect { fill: none; stroke: #8bdecf; stroke-width: 1.7; }
+    .step { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; letter-spacing: 1px; fill: #b9d2d5; }
+    @keyframes travel { to { stroke-dashoffset: -128; } }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+  </style>
+  <rect width="560" height="480" rx="18" fill="url(#background)"/>
+  <rect width="560" height="480" rx="18" fill="url(#dots)"/>
+  <path d="M40 40h24" stroke="#8bdecf" stroke-width="3"/>
+  <text x="78" y="45" font-size="13" letter-spacing="1.8" fill="#c1d7da">MORRIS JHENNONG CHEN</text>
+  <text x="40" y="116" class="headline">Building practical</text><text x="40" y="163" class="headline">solutions to</text><text x="40" y="210" class="headline accent">real-world problems.</text>
+  <text x="40" y="252" font-size="17" fill="#a7bdc7">AI · Software Engineering · System Design</text>
+  <g transform="translate(40 300)">
+      <path d="M48 46H442" class="route"/>
+      <path d="M48 46H442" class="signal"/>
+      <g class="node"><circle cx="48" cy="46" r="22"/><path d="m39 47 6 6 12-14"/></g>
+      <g class="node"><circle cx="244" cy="46" r="22"/><path d="m237 40-6 6 6 6m14-12 6 6-6 6m-5-15-5 18"/></g>
+      <g class="node"><circle cx="442" cy="46" r="22"/><rect x="431" y="37" width="22" height="18" rx="3"/><path d="M431 43h22"/></g>
+      <g class="step" text-anchor="middle"><text x="48" y="94">UNDERSTAND</text><text x="244" y="94">DESIGN</text><text x="442" y="94">BUILD</text></g>
+    </g>
+</svg>
