@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Capabilities</a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/morris-jhennong-chen-5a05a5222/">Let's connect</a>
 </p>
 
@@ -65,14 +65,27 @@ The platform integrates gaze estimation, text analysis, and a Flask reading inte
 
 <a name="toolkit"></a>
 
-## <img src="assets/icons/toolbox.svg" width="24" height="24" alt=""> Toolkit
+## <img src="assets/icons/toolbox.svg" width="24" height="24" alt=""> What I bring to a project
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,react,fastapi,flask,postgres&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=python,react,fastapi,flask,postgres&amp;theme=dark" height="48" alt="Python, React, FastAPI, Flask, PostgreSQL">
-</picture>
+**AI systems & retrieval**<br>
+LLMs, RAG / GraphRAG, knowledge graphs, and AI agents—connecting information, models, and tools to support a specific workflow.
 
-**Python** for models and backend logic · **React** for interfaces · **FastAPI / Flask** for services · **PostgreSQL** for application data
+**End-to-end engineering**<br>
+System design, backend services, model integration, and full-stack development—from data processing to interfaces people can use and review.
+
+**Technical leadership & collaboration**<br>
+Requirements analysis, technical project coordination, and mentoring—working with stakeholders and developers to turn needs into implementation priorities.
+
+<details>
+<summary>Technologies I've used</summary>
+
+| Area | Technologies |
+| :--- | :--- |
+| AI & retrieval | Python · PyTorch · Neo4j · FAISS |
+| Applications & data | React · FastAPI · Flask · PostgreSQL · MySQL |
+| Infrastructure & development | Microsoft Azure · Docker · Linux · Git |
+
+</details>
 
 ## <img src="assets/icons/coffee.svg" width="24" height="24" alt=""> Let's compare notes
 
